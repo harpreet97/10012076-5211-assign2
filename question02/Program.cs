@@ -11,7 +11,7 @@ namespace question02
             string[] fruits = new string[5] {"Apple", "Banana", "Coconut", "Mandarin", "Mango" };
 
             foreach(var fruit in fruits) {
-                Console.Write(fruit);
+                Console.WriteLine(fruit);
             }
         }
     }
