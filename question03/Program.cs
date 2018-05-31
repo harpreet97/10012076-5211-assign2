@@ -14,7 +14,7 @@ namespace question03
 
             Stopwatch timeForArray = new Stopwatch();
             timeForArray.Start();// Start Method
-            foreach (var fruit in fruitsArray)
+            foreach (var fruit in fruitsArray)// Added this foreeach loop within the class
             {
                 Console.WriteLine(fruit);
             }
