@@ -28,7 +28,7 @@ namespace question03
                 Console.WriteLine(fruit);
             }
             timeForList.Stop();// Stopped the stopwatch
-            System.Console.WriteLine(timeForList.Elapsed.TotalMilliseconds);
+            System.Console.WriteLine($"Total time taken by an list {timeForList.Elapsed.TotalMilliseconds} ms");// It shows the exact time that it takes to run the list.
         }
     }
 }
