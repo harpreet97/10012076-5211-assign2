@@ -18,8 +18,8 @@ namespace question03
             {
                 Console.WriteLine(fruit);
             }
-            timeForArray.Stop();// Stoped the stopwatch
-            System.Console.WriteLine(timeForArray.Elapsed.TotalMilliseconds);// It shows the time that it takes to run the array 
+            timeForArray.Stop();// Stopped the stopwatch
+            System.Console.WriteLine($"Total time taken by an array {timeForArray.Elapsed.TotalMilliseconds} ms");// It shows the exact time that it takes to run the array 
 
 
         }
