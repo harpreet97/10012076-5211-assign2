@@ -23,7 +23,7 @@ namespace question03
 
             Stopwatch timeForList = new Stopwatch();
             timeForList.Start();// Start Method for a list.
-            foreach (var fruit in fruitsList)
+            foreach (var fruit in fruitsList)// Added this foreach loop within the class to calculate the total time taken by an list.
             {
                 Console.WriteLine(fruit);
             }
