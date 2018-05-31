@@ -14,11 +14,11 @@ namespace question03
 
             Stopwatch timeForArray = new Stopwatch();
             timeForArray.Start();// Start Method
-            foreach (var fruit in fruitsArray)// Added this foreeach loop within the class
+            foreach (var fruit in fruitsArray)// Added this foreeach loop within the class to calculate the total time taken by an array.
             {
                 Console.WriteLine(fruit);
             }
-            timeForArray.Stop();
+            timeForArray.Stop();// Stoped the stopwatch
             System.Console.WriteLine(timeForArray.Elapsed.TotalMilliseconds);
 
         }
