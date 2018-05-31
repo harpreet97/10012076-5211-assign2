@@ -27,7 +27,7 @@ namespace question03
             {
                 Console.WriteLine(fruit);
             }
-            timeForList.Stop();
+            timeForList.Stop();// Stopped the stopwatch
             System.Console.WriteLine(timeForList.Elapsed.TotalMilliseconds);
         }
     }
