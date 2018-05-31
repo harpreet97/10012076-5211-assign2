@@ -13,7 +13,7 @@ namespace question05
             for(int a = 0; a <= 12; a++) {
 
                 decimal answer=Convert.ToDecimal(Convert.ToDecimal(a) / number);
-                Console.WriteLine($"{a} x {number} = {a / number}");
+                Console.WriteLine($"{a} x {number} ={String.Format("{0:F2}", answer)}");
             }
         }
     }
