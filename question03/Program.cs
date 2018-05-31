@@ -19,7 +19,8 @@ namespace question03
                 Console.WriteLine(fruit);
             }
             timeForArray.Stop();// Stoped the stopwatch
-            System.Console.WriteLine(timeForArray.Elapsed.TotalMilliseconds);
+            System.Console.WriteLine(timeForArray.Elapsed.TotalMilliseconds);// It shows the time that it takes to run the array 
+
 
         }
     }
