@@ -22,7 +22,7 @@ namespace question03
             System.Console.WriteLine($"Total time taken by an array {timeForArray.Elapsed.TotalMilliseconds} ms");// It shows the exact time that it takes to run the array 
 
             Stopwatch timeForList = new Stopwatch();
-            timeForList.Start();// Start Method
+            timeForList.Start();// Start Method for a list.
             foreach (var fruit in fruitsList)
             {
                 Console.WriteLine(fruit);
