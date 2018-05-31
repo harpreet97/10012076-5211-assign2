@@ -12,7 +12,6 @@ namespace question04
 
             for (int a = 12; a > 0; a--)
             {
-                var a = i + 1;
                 Console.WriteLine($"{a} x {number} = {a * number}");
             }
         }
