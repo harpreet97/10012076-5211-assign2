@@ -11,7 +11,8 @@ namespace question05
             var number = Convert.ToInt32(Console.ReadLine());
 
             for(int a = 0; a <= 12; a++) {
-                
+
+                decimal answer=Convert.ToDecimal(Convert.ToDecimal(a) / number);
                 Console.WriteLine($"{a} x {number} = {a / number}");
             }
         }
